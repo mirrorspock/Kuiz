@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		387E848B1875A72400DFFF35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E848A1875A72400DFFF35 /* Foundation.framework */; };
+		387E848D1875A72400DFFF35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E848C1875A72400DFFF35 /* CoreGraphics.framework */; };
+		387E848F1875A72500DFFF35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E848E1875A72500DFFF35 /* UIKit.framework */; };
+		387E84951875A72500DFFF35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 387E84931875A72500DFFF35 /* InfoPlist.strings */; };
+		387E84971875A72500DFFF35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E84961875A72500DFFF35 /* main.m */; };
+		387E849B1875A72500DFFF35 /* KAIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E849A1875A72500DFFF35 /* KAIAppDelegate.m */; };
+		387E849E1875A72500DFFF35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387E849C1875A72500DFFF35 /* Main.storyboard */; };
+		387E84A11875A72500DFFF35 /* KAIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E84A01875A72500DFFF35 /* KAIViewController.m */; };
+		387E84A31875A72500DFFF35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387E84A21875A72500DFFF35 /* Images.xcassets */; };
+		387E84AA1875A72500DFFF35 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E84A91875A72500DFFF35 /* XCTest.framework */; };
+		387E84AB1875A72500DFFF35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E848A1875A72400DFFF35 /* Foundation.framework */; };
+		387E84AC1875A72500DFFF35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E848E1875A72500DFFF35 /* UIKit.framework */; };
+		387E84B41875A72500DFFF35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 387E84B21875A72500DFFF35 /* InfoPlist.strings */; };
+		387E84B61875A72500DFFF35 /* Kai_s_KuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E84B51875A72500DFFF35 /* Kai_s_KuizTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		387E84AD1875A72500DFFF35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 387E847F1875A72400DFFF35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 387E84861875A72400DFFF35;
+			remoteInfo = "Kai's Kuiz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		387E84871875A72400DFFF35 /* Kai's Kuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kai's Kuiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		387E848A1875A72400DFFF35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		387E848C1875A72400DFFF35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		387E848E1875A72500DFFF35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		387E84921875A72500DFFF35 /* Kai's Kuiz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kai's Kuiz-Info.plist"; sourceTree = "<group>"; };
+		387E84941875A72500DFFF35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		387E84961875A72500DFFF35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		387E84981875A72500DFFF35 /* Kai's Kuiz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kai's Kuiz-Prefix.pch"; sourceTree = "<group>"; };
+		387E84991875A72500DFFF35 /* KAIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAIAppDelegate.h; sourceTree = "<group>"; };
+		387E849A1875A72500DFFF35 /* KAIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAIAppDelegate.m; sourceTree = "<group>"; };
+		387E849D1875A72500DFFF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		387E849F1875A72500DFFF35 /* KAIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAIViewController.h; sourceTree = "<group>"; };
+		387E84A01875A72500DFFF35 /* KAIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAIViewController.m; sourceTree = "<group>"; };
+		387E84A21875A72500DFFF35 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		387E84A81875A72500DFFF35 /* Kai's KuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kai's KuizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		387E84A91875A72500DFFF35 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		387E84B11875A72500DFFF35 /* Kai's KuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kai's KuizTests-Info.plist"; sourceTree = "<group>"; };
+		387E84B31875A72500DFFF35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		387E84B51875A72500DFFF35 /* Kai_s_KuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kai_s_KuizTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		387E84841875A72400DFFF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387E848D1875A72400DFFF35 /* CoreGraphics.framework in Frameworks */,
+				387E848F1875A72500DFFF35 /* UIKit.framework in Frameworks */,
+				387E848B1875A72400DFFF35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387E84A51875A72500DFFF35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387E84AA1875A72500DFFF35 /* XCTest.framework in Frameworks */,
+				387E84AC1875A72500DFFF35 /* UIKit.framework in Frameworks */,
+				387E84AB1875A72500DFFF35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		387E847E1875A72400DFFF35 = {
+			isa = PBXGroup;
+			children = (
+				387E84901875A72500DFFF35 /* Kai's Kuiz */,
+				387E84AF1875A72500DFFF35 /* Kai's KuizTests */,
+				387E84891875A72400DFFF35 /* Frameworks */,
+				387E84881875A72400DFFF35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		387E84881875A72400DFFF35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				387E84871875A72400DFFF35 /* Kai's Kuiz.app */,
+				387E84A81875A72500DFFF35 /* Kai's KuizTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		387E84891875A72400DFFF35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				387E848A1875A72400DFFF35 /* Foundation.framework */,
+				387E848C1875A72400DFFF35 /* CoreGraphics.framework */,
+				387E848E1875A72500DFFF35 /* UIKit.framework */,
+				387E84A91875A72500DFFF35 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		387E84901875A72500DFFF35 /* Kai's Kuiz */ = {
+			isa = PBXGroup;
+			children = (
+				387E84991875A72500DFFF35 /* KAIAppDelegate.h */,
+				387E849A1875A72500DFFF35 /* KAIAppDelegate.m */,
+				387E849C1875A72500DFFF35 /* Main.storyboard */,
+				387E849F1875A72500DFFF35 /* KAIViewController.h */,
+				387E84A01875A72500DFFF35 /* KAIViewController.m */,
+				387E84A21875A72500DFFF35 /* Images.xcassets */,
+				387E84911875A72500DFFF35 /* Supporting Files */,
+			);
+			path = "Kai's Kuiz";
+			sourceTree = "<group>";
+		};
+		387E84911875A72500DFFF35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				387E84921875A72500DFFF35 /* Kai's Kuiz-Info.plist */,
+				387E84931875A72500DFFF35 /* InfoPlist.strings */,
+				387E84961875A72500DFFF35 /* main.m */,
+				387E84981875A72500DFFF35 /* Kai's Kuiz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		387E84AF1875A72500DFFF35 /* Kai's KuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				387E84B51875A72500DFFF35 /* Kai_s_KuizTests.m */,
+				387E84B01875A72500DFFF35 /* Supporting Files */,
+			);
+			path = "Kai's KuizTests";
+			sourceTree = "<group>";
+		};
+		387E84B01875A72500DFFF35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				387E84B11875A72500DFFF35 /* Kai's KuizTests-Info.plist */,
+				387E84B21875A72500DFFF35 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		387E84861875A72400DFFF35 /* Kai's Kuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387E84B91875A72500DFFF35 /* Build configuration list for PBXNativeTarget "Kai's Kuiz" */;
+			buildPhases = (
+				387E84831875A72400DFFF35 /* Sources */,
+				387E84841875A72400DFFF35 /* Frameworks */,
+				387E84851875A72400DFFF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kai's Kuiz";
+			productName = "Kai's Kuiz";
+			productReference = 387E84871875A72400DFFF35 /* Kai's Kuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		387E84A71875A72500DFFF35 /* Kai's KuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387E84BC1875A72500DFFF35 /* Build configuration list for PBXNativeTarget "Kai's KuizTests" */;
+			buildPhases = (
+				387E84A41875A72500DFFF35 /* Sources */,
+				387E84A51875A72500DFFF35 /* Frameworks */,
+				387E84A61875A72500DFFF35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				387E84AE1875A72500DFFF35 /* PBXTargetDependency */,
+			);
+			name = "Kai's KuizTests";
+			productName = "Kai's KuizTests";
+			productReference = 387E84A81875A72500DFFF35 /* Kai's KuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		387E847F1875A72400DFFF35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KAI;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Kai-Arne Reiter";
+				TargetAttributes = {
+					387E84A71875A72500DFFF35 = {
+						TestTargetID = 387E84861875A72400DFFF35;
+					};
+				};
+			};
+			buildConfigurationList = 387E84821875A72400DFFF35 /* Build configuration list for PBXProject "Kai's Kuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 387E847E1875A72400DFFF35;
+			productRefGroup = 387E84881875A72400DFFF35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				387E84861875A72400DFFF35 /* Kai's Kuiz */,
+				387E84A71875A72500DFFF35 /* Kai's KuizTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		387E84851875A72400DFFF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387E84A31875A72500DFFF35 /* Images.xcassets in Resources */,
+				387E84951875A72500DFFF35 /* InfoPlist.strings in Resources */,
+				387E849E1875A72500DFFF35 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387E84A61875A72500DFFF35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387E84B41875A72500DFFF35 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		387E84831875A72400DFFF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387E84A11875A72500DFFF35 /* KAIViewController.m in Sources */,
+				387E849B1875A72500DFFF35 /* KAIAppDelegate.m in Sources */,
+				387E84971875A72500DFFF35 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387E84A41875A72500DFFF35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387E84B61875A72500DFFF35 /* Kai_s_KuizTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		387E84AE1875A72500DFFF35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 387E84861875A72400DFFF35 /* Kai's Kuiz */;
+			targetProxy = 387E84AD1875A72500DFFF35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		387E84931875A72500DFFF35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387E84941875A72500DFFF35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		387E849C1875A72500DFFF35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387E849D1875A72500DFFF35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		387E84B21875A72500DFFF35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				387E84B31875A72500DFFF35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		387E84B71875A72500DFFF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		387E84B81875A72500DFFF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		387E84BA1875A72500DFFF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kai's Kuiz/Kai's Kuiz-Prefix.pch";
+				INFOPLIST_FILE = "Kai's Kuiz/Kai's Kuiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		387E84BB1875A72500DFFF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kai's Kuiz/Kai's Kuiz-Prefix.pch";
+				INFOPLIST_FILE = "Kai's Kuiz/Kai's Kuiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		387E84BD1875A72500DFFF35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kai's Kuiz.app/Kai's Kuiz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kai's Kuiz/Kai's Kuiz-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kai's KuizTests/Kai's KuizTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		387E84BE1875A72500DFFF35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kai's Kuiz.app/Kai's Kuiz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kai's Kuiz/Kai's Kuiz-Prefix.pch";
+				INFOPLIST_FILE = "Kai's KuizTests/Kai's KuizTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		387E84821875A72400DFFF35 /* Build configuration list for PBXProject "Kai's Kuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387E84B71875A72500DFFF35 /* Debug */,
+				387E84B81875A72500DFFF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387E84B91875A72500DFFF35 /* Build configuration list for PBXNativeTarget "Kai's Kuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387E84BA1875A72500DFFF35 /* Debug */,
+				387E84BB1875A72500DFFF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		387E84BC1875A72500DFFF35 /* Build configuration list for PBXNativeTarget "Kai's KuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387E84BD1875A72500DFFF35 /* Debug */,
+				387E84BE1875A72500DFFF35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 387E847F1875A72400DFFF35 /* Project object */;
+}
