@@ -21,6 +21,13 @@
 		387E84AC1875A72500DFFF35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387E848E1875A72500DFFF35 /* UIKit.framework */; };
 		387E84B41875A72500DFFF35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 387E84B21875A72500DFFF35 /* InfoPlist.strings */; };
 		387E84B61875A72500DFFF35 /* Kai_s_KuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E84B51875A72500DFFF35 /* Kai_s_KuizTests.m */; };
+		387E84C41875A75500DFFF35 /* rightanswer.png in Resources */ = {isa = PBXBuildFile; fileRef = 387E84BF1875A75500DFFF35 /* rightanswer.png */; };
+		387E84C51875A75500DFFF35 /* gameover.png in Resources */ = {isa = PBXBuildFile; fileRef = 387E84C01875A75500DFFF35 /* gameover.png */; };
+		387E84C61875A75500DFFF35 /* menubackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 387E84C11875A75500DFFF35 /* menubackground.png */; };
+		387E84C71875A75500DFFF35 /* selectcategory.png in Resources */ = {isa = PBXBuildFile; fileRef = 387E84C21875A75500DFFF35 /* selectcategory.png */; };
+		387E84C81875A75500DFFF35 /* wronganswer.png in Resources */ = {isa = PBXBuildFile; fileRef = 387E84C31875A75500DFFF35 /* wronganswer.png */; };
+		387E84CB1875A8E600DFFF35 /* KAICategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E84CA1875A8E600DFFF35 /* KAICategoriesViewController.m */; };
+		387E84CE1875B33400DFFF35 /* KAIGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 387E84CD1875B33400DFFF35 /* KAIGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,15 @@
 		387E84B11875A72500DFFF35 /* Kai's KuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kai's KuizTests-Info.plist"; sourceTree = "<group>"; };
 		387E84B31875A72500DFFF35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		387E84B51875A72500DFFF35 /* Kai_s_KuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kai_s_KuizTests.m; sourceTree = "<group>"; };
+		387E84BF1875A75500DFFF35 /* rightanswer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightanswer.png; sourceTree = "<group>"; };
+		387E84C01875A75500DFFF35 /* gameover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameover.png; sourceTree = "<group>"; };
+		387E84C11875A75500DFFF35 /* menubackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menubackground.png; sourceTree = "<group>"; };
+		387E84C21875A75500DFFF35 /* selectcategory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectcategory.png; sourceTree = "<group>"; };
+		387E84C31875A75500DFFF35 /* wronganswer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wronganswer.png; sourceTree = "<group>"; };
+		387E84C91875A8E600DFFF35 /* KAICategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KAICategoriesViewController.h; path = ../KAICategoriesViewController.h; sourceTree = "<group>"; };
+		387E84CA1875A8E600DFFF35 /* KAICategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KAICategoriesViewController.m; path = ../KAICategoriesViewController.m; sourceTree = "<group>"; };
+		387E84CC1875B33400DFFF35 /* KAIGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KAIGame.h; path = ../KAIGame.h; sourceTree = "<group>"; };
+		387E84CD1875B33400DFFF35 /* KAIGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KAIGame.m; path = ../KAIGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +133,10 @@
 				387E849C1875A72500DFFF35 /* Main.storyboard */,
 				387E849F1875A72500DFFF35 /* KAIViewController.h */,
 				387E84A01875A72500DFFF35 /* KAIViewController.m */,
+				387E84C91875A8E600DFFF35 /* KAICategoriesViewController.h */,
+				387E84CA1875A8E600DFFF35 /* KAICategoriesViewController.m */,
+				387E84CC1875B33400DFFF35 /* KAIGame.h */,
+				387E84CD1875B33400DFFF35 /* KAIGame.m */,
 				387E84A21875A72500DFFF35 /* Images.xcassets */,
 				387E84911875A72500DFFF35 /* Supporting Files */,
 			);
@@ -126,6 +146,11 @@
 		387E84911875A72500DFFF35 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				387E84BF1875A75500DFFF35 /* rightanswer.png */,
+				387E84C01875A75500DFFF35 /* gameover.png */,
+				387E84C11875A75500DFFF35 /* menubackground.png */,
+				387E84C21875A75500DFFF35 /* selectcategory.png */,
+				387E84C31875A75500DFFF35 /* wronganswer.png */,
 				387E84921875A72500DFFF35 /* Kai's Kuiz-Info.plist */,
 				387E84931875A72500DFFF35 /* InfoPlist.strings */,
 				387E84961875A72500DFFF35 /* main.m */,
@@ -229,8 +254,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				387E84C41875A75500DFFF35 /* rightanswer.png in Resources */,
+				387E84C81875A75500DFFF35 /* wronganswer.png in Resources */,
 				387E84A31875A72500DFFF35 /* Images.xcassets in Resources */,
+				387E84C61875A75500DFFF35 /* menubackground.png in Resources */,
+				387E84C51875A75500DFFF35 /* gameover.png in Resources */,
 				387E84951875A72500DFFF35 /* InfoPlist.strings in Resources */,
+				387E84C71875A75500DFFF35 /* selectcategory.png in Resources */,
 				387E849E1875A72500DFFF35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +282,8 @@
 			files = (
 				387E84A11875A72500DFFF35 /* KAIViewController.m in Sources */,
 				387E849B1875A72500DFFF35 /* KAIAppDelegate.m in Sources */,
+				387E84CB1875A8E600DFFF35 /* KAICategoriesViewController.m in Sources */,
+				387E84CE1875B33400DFFF35 /* KAIGame.m in Sources */,
 				387E84971875A72500DFFF35 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
