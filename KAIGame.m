@@ -14,6 +14,29 @@
 
 @implementation KAIGame
 
+-(IBAction)Answer1:(id)sender{
+    
+    
+    
+}
+-(IBAction)Answer2:(id)sender{
+    
+    
+    
+}
+-(IBAction)Answer3:(id)sender{
+    
+    
+    
+}
+-(IBAction)Answer4:(id)sender{
+    
+    
+    
+}
+
+
+
 
 -(void)Category1{
     //sport
