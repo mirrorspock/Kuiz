@@ -14,7 +14,9 @@ BOOL Answer1Correct;
 BOOL Answer2Correct;
 BOOL Answer3Correct;
 BOOL Answer4Correct;
-
+int ScoreNumber;
+int LivesNumber;
+BOOL GameInProgress;
 
 @interface KAIGame : UIViewController
 
@@ -26,6 +28,11 @@ BOOL Answer4Correct;
     IBOutlet UIButton *Answer2;
     IBOutlet UIButton *Answer3;
     IBOutlet UIButton *Answer4;
+    IBOutlet UIButton *NextCategory;
+    IBOutlet UIButton *Exit;
+    IBOutlet UILabel *Score;
+    IBOutlet UILabel *Lives;
+    IBOutlet UIImageView *Result;
 
 }
 
@@ -41,6 +48,8 @@ BOOL Answer4Correct;
 -(void)Category5;
 -(void)Category6;
 
+-(void)RightAnswer;
+-(void)WrongAnswer;
 
 
 

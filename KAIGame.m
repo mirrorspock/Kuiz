@@ -14,25 +14,78 @@
 
 @implementation KAIGame
 
+-(void)RightAnswer{
+    ScoreNumber = ScoreNumber + 1;
+    Score.text = [NSString stringWithFormat:@"%i", ScoreNumber];
+    NextCategory.hidden = NO;
+    Answer1.hidden = YES;
+    Answer2.hidden = YES;
+    Answer3.hidden = YES;
+    Answer4.hidden = YES;
+    QuestionText.hidden = YES;
+    CategorySelected.hidden = YES;
+    Result.hidden = NO;
+    Result.image = [UIImage imageNamed:@"rightanswer.png"];
+}
+
+-(void)WrongAnswer{
+    LivesNumber = LivesNumber - 1;
+    Lives.text = [NSString stringWithFormat:@"%i",LivesNumber];
+    NextCategory.hidden = NO;
+    Answer1.hidden = YES;
+    Answer2.hidden = YES;
+    Answer3.hidden = YES;
+    Answer4.hidden = YES;
+    QuestionText.hidden = YES;
+    CategorySelected.hidden = YES;
+    Result.hidden = NO;
+    Result.image = [UIImage imageNamed:@"wronganswer.png"];
+
+    if (LivesNumber == 0) {
+        Result.image = [UIImage imageNamed:@"gameover.png"];
+        NextCategory.hidden = YES;
+        Exit.hidden = NO;
+        GameInProgress = NO;
+    }
+}
+
+
+
 -(IBAction)Answer1:(id)sender{
     
-    
-    
+    if (Answer1Correct == YES) {
+        [self RightAnswer];
+    }
+    else{
+        [self WrongAnswer];
+    }
 }
 -(IBAction)Answer2:(id)sender{
     
-    
-    
+    if (Answer2Correct == YES) {
+        [self RightAnswer];
+    }
+    else{
+        [self WrongAnswer];
+    }
 }
 -(IBAction)Answer3:(id)sender{
     
-    
-    
+    if (Answer3Correct == YES) {
+        [self RightAnswer];
+    }
+    else{
+        [self WrongAnswer];
+    }
 }
 -(IBAction)Answer4:(id)sender{
     
-    
-    
+    if (Answer4Correct == YES) {
+        [self RightAnswer];
+    }
+    else{
+        [self WrongAnswer];
+    }
 }
 
 
@@ -57,7 +110,7 @@
             [Answer4 setTitle:@"Lisbon" forState:UIControlStateNormal];
             Answer2Correct = YES;
             break;
-        case 3:
+        case 2:
             QuestionText.text = [NSString stringWithFormat:@"By What Score Did England Win The Ashes In The Summer of 2013?"];
             [Answer1 setTitle:@"5-0" forState:UIControlStateNormal];
             [Answer2 setTitle:@"4-0" forState:UIControlStateNormal];
@@ -65,7 +118,7 @@
             [Answer4 setTitle:@"2-0" forState:UIControlStateNormal];
             Answer3Correct = YES;
             break;
-        case 4:
+        case 3:
             QuestionText.text = [NSString stringWithFormat:@"What Team Won The NBA Playoff Finals In 2013?"];
             [Answer1 setTitle:@"Golden State Warriors" forState:UIControlStateNormal];
             [Answer2 setTitle:@"Memphis Grizzlies" forState:UIControlStateNormal];
@@ -98,7 +151,7 @@
             [Answer4 setTitle:@"1997" forState:UIControlStateNormal];
             Answer2Correct = YES;
             break;
-        case 3:
+        case 2:
             QuestionText.text = [NSString stringWithFormat:@"Who Directed Snakes On A Plane?"];
             [Answer1 setTitle:@"Ryan Wheeler" forState:UIControlStateNormal];
             [Answer2 setTitle:@"Matt Heaney" forState:UIControlStateNormal];
@@ -106,7 +159,7 @@
             [Answer4 setTitle:@"Gina Jepson" forState:UIControlStateNormal];
             Answer3Correct = YES;
             break;
-        case 4:
+        case 3:
             QuestionText.text = [NSString stringWithFormat:@"Will, Jay, Simon and Neil Are The Main Characters In What 2011 Movie?"];
             [Answer1 setTitle:@"Drive" forState:UIControlStateNormal];
             [Answer2 setTitle:@"Thor" forState:UIControlStateNormal];
@@ -139,7 +192,7 @@
             [Answer4 setTitle:@"Oasis" forState:UIControlStateNormal];
             Answer2Correct = YES;
             break;
-        case 3:
+        case 2:
             QuestionText.text = [NSString stringWithFormat:@"Who Won The 2013 Eurovision Song Contest?"];
             [Answer1 setTitle:@"Iceland" forState:UIControlStateNormal];
             [Answer2 setTitle:@"Ireland" forState:UIControlStateNormal];
@@ -147,7 +200,7 @@
             [Answer4 setTitle:@"Norway" forState:UIControlStateNormal];
             Answer3Correct = YES;
             break;
-        case 4:
+        case 3:
             QuestionText.text = [NSString stringWithFormat:@"The Album 'Yours Truly, Angry Mob' Is By What Band?"];
             [Answer1 setTitle:@"The Wombats" forState:UIControlStateNormal];
             [Answer2 setTitle:@"Coldplay" forState:UIControlStateNormal];
@@ -181,7 +234,7 @@
             [Answer4 setTitle:@"Saint's Row" forState:UIControlStateNormal];
             Answer2Correct = YES;
             break;
-        case 3:
+        case 2:
             QuestionText.text = [NSString stringWithFormat:@"Which GTA Game Was Released In 2013?"];
             [Answer1 setTitle:@"3" forState:UIControlStateNormal];
             [Answer2 setTitle:@"4" forState:UIControlStateNormal];
@@ -189,7 +242,7 @@
             [Answer4 setTitle:@"6" forState:UIControlStateNormal];
             Answer3Correct = YES;
             break;
-        case 4:
+        case 3:
             QuestionText.text = [NSString stringWithFormat:@"What Is The Most Successful iPhone App?"];
             [Answer1 setTitle:@"Doodle Jump" forState:UIControlStateNormal];
             [Answer2 setTitle:@"Temple Run" forState:UIControlStateNormal];
@@ -221,7 +274,7 @@
             [Answer4 setTitle:@"Arctic" forState:UIControlStateNormal];
             Answer2Correct = YES;
             break;
-        case 3:
+        case 2:
             QuestionText.text = [NSString stringWithFormat:@"Which Of These Countries Does Not Boarder Germany?"];
             [Answer1 setTitle:@"Denmark" forState:UIControlStateNormal];
             [Answer2 setTitle:@"France" forState:UIControlStateNormal];
@@ -229,7 +282,7 @@
             [Answer4 setTitle:@"Poland" forState:UIControlStateNormal];
             Answer3Correct = YES;
             break;
-        case 4:
+        case 3:
             QuestionText.text = [NSString stringWithFormat:@"What Is The World's Largest Rive?"];
             [Answer1 setTitle:@"Yangtze" forState:UIControlStateNormal];
             [Answer2 setTitle:@"Lena" forState:UIControlStateNormal];
@@ -238,6 +291,8 @@
             Answer4Correct = YES;
             break;
         default:
+            QuestionText.text = [NSString stringWithFormat:@"error"];
+
             break;
     }
     
@@ -263,7 +318,7 @@
             [Answer4 setTitle:@"1922" forState:UIControlStateNormal];
             Answer2Correct = YES;
             break;
-        case 3:
+        case 2:
             QuestionText.text = [NSString stringWithFormat:@"In What Year Was The Eiffel Tower Opened?"];
             [Answer1 setTitle:@"1772" forState:UIControlStateNormal];
             [Answer2 setTitle:@"1906" forState:UIControlStateNormal];
@@ -271,8 +326,8 @@
             [Answer4 setTitle:@"1945" forState:UIControlStateNormal];
             Answer3Correct = YES;
             break;
-        case 4:
-            QuestionText.text = [NSString stringWithFormat:@"Which Us President Was Nicknamed 'Tricky Dicky'?"];
+        case 3:
+            QuestionText.text = [NSString stringWithFormat:@"Which Us President Was Nicknamed Tricky Dicky?"];
             [Answer1 setTitle:@"Thomas Jefferson" forState:UIControlStateNormal];
             [Answer2 setTitle:@"Grover Cleveland" forState:UIControlStateNormal];
             [Answer3 setTitle:@"Franklin D. Roosevelt" forState:UIControlStateNormal];
@@ -301,6 +356,21 @@
 
 - (void)viewDidLoad
 {
+    if (GameInProgress == NO) {
+        LivesNumber = 3;
+        ScoreNumber = 0;
+        GameInProgress = YES;
+    }
+    
+    Result.hidden = YES;
+    Exit.hidden = YES;
+    NextCategory.hidden = YES;
+    
+    Lives.text = [NSString stringWithFormat:@"%i", LivesNumber];
+    Score.text = [NSString stringWithFormat:@"%i", ScoreNumber];
+    
+    
+    
     Answer1Correct = NO;
     Answer2Correct = NO;
     Answer3Correct = NO;
@@ -311,6 +381,7 @@
     CategoryLoaded = [[NSUserDefaults standardUserDefaults] integerForKey:@"CategorySaved"];
 
     QuestionSelected = arc4random() %4;
+//    NSLog(@"questionselected %i",QuestionSelected);
     
     switch (CategoryLoaded) {
         case 1:
